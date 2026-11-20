@@ -4,7 +4,7 @@ Signed release builds and the update feed for **Prism Partials Studio**, a stere
 
 ## Install
 
-Download the ZIP for your system from [Releases](https://github.com/marky1389/prism-partials-releases/releases) and extract it. Copy the whole **Prism Partials Studio.vst3** folder into a VST3 plug-in folder, then rescan plug-ins in your DAW.
+Download the ZIP for your system from [`downloads/`](downloads) (Windows: [Prism_Partials_Studio_3.1.0_Windows_VST3.zip](https://github.com/marky1389/prism-partials-releases/raw/main/downloads/Prism_Partials_Studio_3.1.0_Windows_VST3.zip)) and extract it. Copy the whole **Prism Partials Studio.vst3** folder into a VST3 plug-in folder, then rescan plug-ins in your DAW.
 
 | System | Per-user folder |
 | --- | --- |
@@ -24,6 +24,6 @@ To always run the version inside the VST3 folder, set the environment variable `
 ## What is here
 
 - `channel/` is the update feed that the plug-in reads: `latest.txt` names the newest version and each version folder holds its signed manifest, release notes and packages. Prism accepts a package only when its signature verifies against the key built into the plug-in.
-- Releases hold the installer ZIPs.
+- `downloads/` holds the installer ZIPs. SHA-256 of the 3.1.0 Windows ZIP: `3769ba01bb532a014f47472a567c420b9cd8c339b73fa185604222c1e26a9d34`.
 
 The plug-in source is kept elsewhere. This repository never holds the signing key.
