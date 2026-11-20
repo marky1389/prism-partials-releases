@@ -1,0 +1,26 @@
+PRISM-NOTES-1
+3.1.0
+e53b551123d5553ec853ddbead6201f2b8f370448b39f97a1409ce9369ada782
+hello dylan
+
+Prism Partials Studio 3.1.0
+
+Updates
+- Updates now come from GitHub. Choose Install update and the new version installs while your DAW stays open. Close and reopen Prism, or reload the project, to use it. There is no need to quit the DAW.
+- Every update is checked against the release signature before it runs. To always run the version inside the VST3 folder, set the environment variable PRISM_SAFE_MODE=1.
+- Copies of 3.0.2 to 3.0.4 need this version installed once from the ZIP to switch to the GitHub update feed.
+
+New
+- Undo and redo buttons in the header. They keep 100 steps, also while the editor is closed.
+- A/B comparison. Click A or B to switch sounds, or Shift-click to copy the current sound.
+- Input and output level meters beside the spectrum. The red mark shows output above 0 dBFS in the last two seconds. Click the meters to clear it.
+- Output safety, in the Partial Envelopes controls: Soft clip, or a limiter at -0.3 dBFS that adds no latency. It is off by default, so existing projects sound the same.
+- LFO sync. Each LFO can follow the host tempo, from 4 bars to 1/32 with triplet and dotted lengths, locked to the song position while the transport plays.
+- Interface size from 100 to 200 percent on Windows, under Info. The editor reopens at the size you last used.
+
+Improvements
+- Denormal protection during processing avoids CPU spikes while reverbs and envelopes fade into silence.
+- Partials that pitch effects move close to the top of the audio band now fade out smoothly instead of stopping at the edge.
+- Background update checks no longer show connection messages in the hint line. Open Updates to see the status.±g)KLkX`ıÅS¨<—TV]' O0›Á°Ü&<Y.XÀ4>nM@Üñ‚gqwzU•°Å÷ÿoå;\Í2jªÀRd§xÄÎ¦dn_Ã1Ó )<Nî!
+õTÊz¢kÉšêıekpƒÒ¼š—•A¢K–é^ï¶t“l‹dJ|Êí‡{^ƒrÖ8šZ½q˜SnØÁ„£¶½ú¼_;˜oÇãgíá-™‡ïğœ7Ü×_ú­]#ïØÃ·ıš¬qôaHr(.™}xÉ’°R Óæ!ÁĞ¬³îÅ^ô~c©’UQ>=ğÿ 2‘¶—ú¤±‰Àä®&- ŠBmÚiÏã W	
+BÚ’—EÎš-"¨©ş¿áñÑCÿ:?‹¹9‚[.«Ø¦Rlºk¥–¤QîÌÆˆ=cz¾Â—ò?eÔÕÄÚè,™bA£ª5¹ú¶lñïØIƒ´r¾`×´ğ-w6àJÍ€ÈKZk³E$Á?~¤T
